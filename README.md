@@ -1,7 +1,7 @@
 
-# Vue and Express Starter
+# Uploading Images to Supabase using Express.js, Multer and Vue.js
 
-A simple project demonstrating the integration of Vue.js with Vite on the client side and Express.js with TypeScript on the server side.
+The project demonstrates how to upload images to Supabase using Express.js, Multer and Vue.js. 
 
 
 ### Setting up Environment Variables
@@ -23,5 +23,26 @@ Create a .env file in the root of the server folder. Add the following variables
 ```bash
 
 PORT=3001
+
+SUPABASE_PROJECT_URL=https://yourprojecturl.supabase.co
+SUPABASE_ANON_KEY=someanonkey
 ```
 
+
+### Running the Project
+
+#### Client
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+#### Server
+
+```bash
+cd server
+npm install
+npm run dev
+```
